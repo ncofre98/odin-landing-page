@@ -29,5 +29,51 @@
 body {
     font-family: var(--font-family);
     box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header,
+.hero,
+.header__nav-link,
+.footer {
+    background-color: var(--dark-bg-color);
+    color: var(--hero-main-text-color);
+}
+
+.header,
+.hero,
+.footer {
+    box-shadow: 0 0 0 100vmax var(--dark-bg-color);
+    clip-path: inset(0 -100vmax); 
+}
+
+.header__nav-list {
+    list-style: none;
+}
+
+.header__nav-link {
+    text-decoration: none;
+}
+
+.hero__title {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* END TOP BLUE SECTION */
+
+.quote {
+    background-color: var(--quote-section-bg-color);
+    box-shadow: 0 0 0 100vmax var(--quote-section-bg-color);
+    clip-path: inset(0 -100vmax); 
 }
 
