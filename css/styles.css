@@ -77,6 +77,13 @@ body {
     /* outline: 1px solid red; */
 }
 
+.hero,
+.info,
+.quote,
+.cta-section {
+    padding: 6rem 0;
+}
+
 .hero__body {
     /* padding: 3rem 0; */
     /* outline: 1px solid red; */
@@ -129,3 +136,75 @@ body {
     flex: 1;
 }
 
+.info {
+    text-align: center;
+}
+
+.info__title {
+    margin-top: 0;
+    margin-bottom: 3.5rem;
+}
+
+.info__cards {
+    display: flex;
+    padding: 0 4rem;
+}
+
+.info__card-text {
+    margin-top: 4px;
+    color: var(--information-header-text-color);
+    /* max-width: 150px; */
+}
+
+.info__card-img {
+    border: 4px solid var(--button-color);
+    border-radius: 8px;
+}
+
+.info__title {
+    font-size: var(--information-header-text-size);
+}
+
+.quote blockquote {
+    font-size: var(--quote-text-size);
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.quote figcaption {
+    font-weight: bold;
+    text-align: right;
+    font-size: var(--hero-sec-text-size);
+}
+
+
+.cta {
+    color: var(--hero-main-text-color);
+    border-radius: 5px;
+    background-color: var(--button-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta__title {
+    margin-bottom: 0;
+}
+
+.cta__text {
+    margin-top: 0;
+}
+
+
+.cta__btn {
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid var(--hero-main-text-color);
+    padding: 4px 24px;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+}
